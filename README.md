@@ -15,7 +15,7 @@ The project will contain the List, Add and Contact page.
 - Linters
 
 ## Live Demo 
-[Click to check my awesome book shelf](https://lizdev-05.github.io/Awesome-Books/)
+[Click to check my awesome book shelf](https://lizdev-05.github.io/Awesome-book-ES6/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
