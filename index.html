@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books shelf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+  <header>
+    <nav>
+        <h1>Awesome Books</h1>
+        <ul>
+            <li><a href="#book-lists"  class="nav-link list active"> List </a></li>
+            <li><a href="#add"  class="nav-link addNav"> Add new </a></li>
+            <li><a href="#contact" class="nav-link contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="timeDisplay">
+    </div>
+  </header>
+    
+
+    <main>
+        <section id="book-lists">
+        <div class="section-one">
+            <h1>All awesome books</h1>
+        </div>
+
+        <div class="table-part">
+            <ul class="book-list">
+            </ul>
+        </div>
+       </section>
+
+        <div class="form-section" id="add">
+            <h2>Add a new book</h2>
+            <form id="form">
+
+                <input type="text" name="title" id="title" class="input" placeholder="Title"> <br> <br>
+                <input type="text" name="author" id="author" class="input" placeholder="Author"> <br> <br>
+                <p class="error"></p>
+                <button type="submit" class="btn">Add</button>
+            </form>
+        </div>
+
+
+        <section class="info-section" id="contact">
+            <h2>Contact Information</h2>
+            <p>Do you have any questions to ask or you just want to say "Hello"? <br>
+                You can reach out to us!
+            </p>
+            <ul class="info-contact">
+                <li>Our email :  ojesanmioyinlade@gmail.com</li>
+                <li>Our phone Number : 08067048315</li>
+                <li> Our Address: 22, Wali Sum House Sobi Ilorin, Nigeria</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>(c) 2022. App by Oyinlade Ojesanmi</p>
+    </footer>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
