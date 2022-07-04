@@ -293,6 +293,10 @@ footer {
     margin: 0;
   }
 
+  #form >button:hover{
+    border-radius: 0;
+  }
+
   .error {
     padding: 2px;
     color: rgb(143, 8, 8);
