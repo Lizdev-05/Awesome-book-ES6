@@ -293,7 +293,7 @@ footer {
     margin: 0;
   }
 
-  #form >button:hover{
+  #form > button:hover {
     border-radius: 0;
   }
 
