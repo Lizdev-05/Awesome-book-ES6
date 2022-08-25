@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 export const errorMessage = (message) => {
   document.querySelector('.error').textContent = message;
   setTimeout(() => {

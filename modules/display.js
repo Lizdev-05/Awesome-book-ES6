@@ -1,6 +1,5 @@
 import Book from './add.js';
 // Function for displaying books
-/* eslint-disable no-undef */
 
 export const displayBooks = (title, author, id) => {
   const bookList = document.querySelector('.book-list');

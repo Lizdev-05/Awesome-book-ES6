@@ -1,5 +1,4 @@
 // Navigation
-/* eslint-disable no-undef */
 export const handleLinkClick = (e) => {
   const navLinks = document.getElementsByClassName('nav-link');
   for (let i = 0; i < navLinks.length; i += 1) {
