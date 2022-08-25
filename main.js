@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import { displayBooks } from './modules/display.js';
 import { handleLinkClick } from './modules/spa.js';
 import * as dateTime from './modules/date.js';
